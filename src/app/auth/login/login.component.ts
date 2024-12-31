@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { DebounceTime } from '@sleeko/utils/decorators';
-import { AppSetting } from '@main/app.initialize';
+import { AppSetting } from '@app/initialize';
 
 @Component({
     selector: 'app-login',

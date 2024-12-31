@@ -21,6 +21,10 @@
         "useDefineForClassFields": false,
         "lib": ["ES2022", "dom"],
         "paths": {
+            "@app/config": ["src/app/app.config"],
+            "@app/routes": ["src/app/app.routes"],
+            "@app/initialize": ["src/app/app.initialize"],
+
             "@main/*": ["src/app/main/*"],
             "@auth/*": ["src/app/auth/*"],
             "@error/*": ["src/app/error/*"],
