@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@layer base {
+    // 修复默认样式
+    a {
+        @apply text-blue-400 hover:text-blue-800;
+        transition: all 0.3s;
+    }
+
+    img {
+        display: inline;
+    }
+
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+        vertical-align: initial;
+    }
+}
