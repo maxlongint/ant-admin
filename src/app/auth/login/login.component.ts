@@ -2,8 +2,8 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
-import { AppSetting } from 'src/app/app.initialize';
 import { DebounceTime } from '@sleeko/utils/decorators';
+import { AppSetting } from '@main/app.initialize';
 
 @Component({
     selector: 'app-login',
