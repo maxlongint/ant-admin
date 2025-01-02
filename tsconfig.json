@@ -26,6 +26,8 @@
             "@app/initialize": ["src/app/app.initialize"],
 
             "@main/*": ["src/app/main/*"],
+            "@layout/*": ["src/app/layout/*"],
+            "@pages/*": ["src/app/pages/*"],
             "@auth/*": ["src/app/auth/*"],
             "@error/*": ["src/app/error/*"],
             "@components/*": ["src/app/components/*"],

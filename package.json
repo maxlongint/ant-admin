@@ -19,7 +19,7 @@
         "@angular/platform-browser-dynamic": "^16.2.0",
         "@angular/router": "^16.2.0",
         "@ngx-formly/core": "^6.3.12",
-        "@sleeko/utils": "^0.0.6",
+        "@sleeko/utils": "^0.0.7",
         "ng-zorro-antd": "^16.2.2",
         "rxjs": "~7.8.0",
         "tslib": "^2.3.0",

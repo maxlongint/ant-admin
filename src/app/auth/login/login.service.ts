@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root',
 })
 export class LoginService {
-
-  constructor() { }
+    login(data: { account: string | null; password: string | null }) {}
 }

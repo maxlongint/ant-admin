@@ -1,8 +1,13 @@
 <nz-form-item>
-    <nz-form-label>
-        {{ props.label }}
-    </nz-form-label>
-    <nz-form-control>
+    <ng-container *ngIf="props.label">
+        <nz-form-label [nzRequired]="props.required" [nzFor]="id">
+            {{ props.label }}
+        </nz-form-label>
+    </ng-container>
+    <nz-form-control [nzValidateStatus]="errorState" [nzErrorTip]="errorTpl" [nzExtra]="props.description">
         <ng-container #fieldComponent></ng-container>
+        <ng-template #errorTpl let-control>
+            <formly-validation-message [field]="field"></formly-validation-message>
+        </ng-template>
     </nz-form-control>
 </nz-form-item>
